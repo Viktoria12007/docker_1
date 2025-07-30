@@ -4,4 +4,4 @@ COPY ./packages/package*.json /home/ilovedocker/app
 RUN npm i
 COPY ./src /home/ilovedocker/app
 EXPOSE 3032
-ENTRYPOINT ["node", "./src/main.js"]
+ENTRYPOINT ["node", "main.js"]
